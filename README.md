@@ -84,4 +84,8 @@ No PowerShell dentro da pasta do projeto
 git checkout -b master
 heroku create
 heroku apps:rename nome da aplicação
-
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+heroku logs --tail
+heroku addons:create heroku-postgresql
