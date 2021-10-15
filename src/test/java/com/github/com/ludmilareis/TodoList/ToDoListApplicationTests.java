@@ -1,0 +1,13 @@
+package com.github.com.ludmilareis.TodoList;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ToDoListApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
